@@ -1,0 +1,689 @@
+########################################
+# Program: needle
+# Rundate: Wed  1 May 2024 13:47:59
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20240501-134754-0502-69344738-p1m.asequence
+#    -bsequence emboss_needle-I20240501-134754-0502-69344738-p1m.bsequence
+#    -datafile EDNAFULL
+#    -gapopen 10.0
+#    -gapextend 0.5
+#    -endopen 10.0
+#    -endextend 0.5
+#    -aformat3 pair
+#    -snucleotide1
+#    -snucleotide2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 46354111-46360940
+# 2: 198582816-198588794
+# Matrix: EDNAFULL
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 8072
+# Identity:    3842/8072 (47.6%)
+# Similarity:  3842/8072 (47.6%)
+# Gaps:        3335/8072 (41.3%)
+# Score: 12442.5
+# 
+#
+#=======================================
+
+46354111-4636      1 --------------------------------------------------      0
+                                                                       
+198582816-198      1 ACTTGCCCTTGTATCTCCGCCTTCTCTTTCTGCAGGAAACTTTATTTCCT     50
+
+46354111-4636      1 ---------------------------AGATCTGTTTGGTTCAGTTGCTG     23
+                                                |||||||.||||.|..|||||||
+198582816-198     51 ACTTCTGCACACCAAGTTTCTACCTCCAGATCTGCTTGGCTGTGTTGCTG    100
+
+46354111-4636     24 AGAAGCCTGACATACCAGGACTGCCTGAGACAAGCCACAAGCTGGTGAGT     73
+                     |.||||||||||.|||||..|||||.|..|.||.|||....|.|||||||
+198582816-198    101 ACAAGCCTGACACACCAGTGCTGCCGGGAAGAAACCATCCTCCGGTGAGT    150
+
+46354111-4636     74 TGTAGGCATTTTTTCCATTACTTTCTGATTCATAGGCTCAACGCACCTCA    123
+                     |||.||.|.|||||||||.|||||.|||..|||.|||||||.||..|||.
+198582816-198    151 TGTGGGTACTTTTTCCATCACTTTGTGAAACATGGGCTCAAAGCCTCTCG    200
+
+46354111-4636    124 AAGCTGGAAATGCCGGGTCTGGGTACACCCTGG-GGAACTGCAAAGCCTG    172
+                     |||||.|||||||           ||| ||||| ||||.||||||||||.
+198582816-198    201 AAGCTAGAAATGC-----------ACA-CCTGGAGGAAATGCAAAGCCTT    238
+
+46354111-4636    173 CACACTTGGGGGGAATGATCAAGAT--GAGAGGCAGGGGTGGGGATGGCA    220
+                     .| ||||.||||.||||||||||||  |.||||..|||||||   |||  
+198582816-198    239 GA-ACTTTGGGGAAATGATCAAGATGGGGGAGGAGGGGGTGG---TGG--    282
+
+46354111-4636    221 TGTGCACCAGGA----GATGTTAGAGAAACCCTGAGGAAGAGCAG-----    261
+                           ||.|||    |.||        ||.|||||||||.||.|     
+198582816-198    283 ------CCGGGACCCTGCTG--------ACACTGAGGAAGTGCTGGGCAC    318
+
+46354111-4636    262 -----------------CGTGCAG----CAGGTGATGGGGGAGAGTGGGC    290
+                                      ||| |||    |||||||..||.|||.|||.||
+198582816-198    319 AGTGGGGTGAAACCTCCCGT-CAGGACTCAGGTGAGAGGAGAGGGTGTGC    367
+
+46354111-4636    291 AGCAAGCGAGGCCAG-GACAGCCACTCTGCTCAGTCACCAGTCCACACAC    339
+                     .|.|||        | ||||                |||.||    ..|.
+198582816-198    368 TGAAAG--------GTGACA----------------ACCTGT----GAAG    389
+
+46354111-4636    340 CCAGGGGC--TCACTCTGCCCCTCTGAGCACCCA-------AGGACGTTA    380
+                     |.|||.||  ||||||||.|   |||    ||||       |||.|.|||
+198582816-198    390 CTAGGAGCAATCACTCTGTC---CTG----CCCAATGCTCCAGGGCTTTA    432
+
+46354111-4636    381 AAGAGCTGGAACTGT-TAGTCT---AAATATAGGACCATCCAAGCTCTGA    426
+                     |||||||||||||.| |||..|   ||||.|    ||.|     ||||..
+198582816-198    433 AAGAGCTGGAACTTTCTAGCATGAAAAATTT----CCCT-----CTCTAG    473
+
+46354111-4636    427 ACCAAA-ATGTGTCCCTTGCCTCAACTCAGGAGATCCACAGAGGCAGAAG    475
+                     .||||| ||.||.|.|||||||||||||||||...||||||||||.|||.
+198582816-198    474 TCCAAATATTTGCCTCTTGCCTCAACTCAGGAAGGCCACAGAGGCTGAAA    523
+
+46354111-4636    476 TAAGGAATTTA-TTTTCTGAAAGATAGATTTCT-ATCAGTTCTGGGTGAC    523
+                     ..|||||.||| ||||||||.||..||| |||| ||||||||||   .||
+198582816-198    524 GGAGGAAATTATTTTTCTGAGAGGCAGA-TTCTCATCAGTTCTG---TAC    569
+
+46354111-4636    524 A---TGTTCTGACACTTGAAA-TGACACCTAGGACAGCACATTTCAGGCA    569
+                     |   ||||.|||..||||||| |||...|||||.||||.||||||||..|
+198582816-198    570 AATGTGTTTTGATGCTTGAAAGTGATTGCTAGGCCAGCGCATTTCAGAAA    619
+
+46354111-4636    570 TCTTGCTCATTGTTCA---------------------CTGTAGT------    592
+                     .||||||.|.|||.||                     |||.|||      
+198582816-198    620 ACTTGCTGAGTGTCCATGGAGGTAGGAGCTAGTTGTGCTGAAGTGACGGG    669
+
+46354111-4636    593 --------------AGA---------------------------------    595
+                                   |||                                 
+198582816-198    670 GAAAATAATAAAACAGATGGAGTGGCTGGCCTTTGCAATGCCAGTGGGTG    719
+
+46354111-4636    596 --------------------------------------------------    595
+                                                                       
+198582816-198    720 CAAACAACGAGGCATAGAGACCACGAATGGGAAGGTGGTCAGAGCAATGC    769
+
+46354111-4636    596 --------AGCTACA-----------------------------------    602
+                             |||.|||                                   
+198582816-198    770 GCTCCCCCAGCCACACCCCAACTGTATCAGGAGAGCCAGGGTCCGGGCAG    819
+
+46354111-4636    603 --------TGCTAG----------------------CCAG---TTG----    615
+                             ||||||                      ||||   |||    
+198582816-198    820 CGTATTTCTGCTAGGCTTCCTGTGTGCTTCTGACGCCCAGCATTTGAGAA    869
+
+46354111-4636    616 --------------------------------------------------    615
+                                                                       
+198582816-198    870 TCATGGATCCAGACCATGTTCTCCCACAGTGCTGAGAAGACTGAGCCCCG    919
+
+46354111-4636    616 -----------------------------------------TAA------    618
+                                                              |||      
+198582816-198    920 TGGTTGAGGGTGGCAGAACAGCTCAGAGGGCTTGCTTCTGTTAAGGGACT    969
+
+46354111-4636    619 -------------------AAATGAAAT----------------------    627
+                                        ||||.||||                      
+198582816-198    970 ATGGGTAGAGATTATCAATAAATTAAATATTAGAGAGTCTCCCACCAGAT   1019
+
+46354111-4636    628 --------------------------------------------------    627
+                                                                       
+198582816-198   1020 CACCTAGGAGCCTAGTCCACACTGGGTCATTTTGTGTCTCAGCAGCTTAC   1069
+
+46354111-4636    628 --------------------------------------------------    627
+                                                                       
+198582816-198   1070 AGCCAACTACTTCTGTTACTCACTTTTGCAACCAATATTTATTTAGTGTC   1119
+
+46354111-4636    628 -----------------------------------------TAAGTA---    633
+                                                              |||.||   
+198582816-198   1120 TGCTAGAACCAGAGCATGGGGCCACTGGGATACCTCAGTGCTAAATACAG   1169
+
+46354111-4636    634 --------------------------------------------------    633
+                                                                       
+198582816-198   1170 ATTCCTGCCCTCAGGGAGCTTATTTTCTAGTGGCAGTACAAACGTGCGTG   1219
+
+46354111-4636    634 -------------------ATGTGTGCACA---GCAT-------------    648
+                                        .||.|||||||   ||||             
+198582816-198   1220 TGTGTGTGTGTGTGCATGCTTGAGTGCACATGTGCATGGGTGGGGGGGGG   1269
+
+46354111-4636    649 --------------------------------------------------    648
+                                                                       
+198582816-198   1270 TGCTTGTGTGAGTGTGTGTGAATTTTAAGGCTACATGATGAAGAAGTTCT   1319
+
+46354111-4636    649 ---------------------------------TTAAC------------    653
+                                                      |||||            
+198582816-198   1320 GCCCAAGGCATGGAAGAATATTTAGAAAATTTGTTAACTGTTCTGCTTAC   1369
+
+46354111-4636    654 --------------------------------------------ATAGC-    658
+                                                                 ||||| 
+198582816-198   1370 ATCTCTGCTCTGAGCCTGGAGCTATGGAGGACCTTTGAAATCAAATAGCC   1419
+
+46354111-4636    659 --------------------------------------------ATCTG-    663
+                                                                 ||||| 
+198582816-198   1420 CAGAACCAAACTCCAGCTCAGCAAGTAACTCACTTTGTGAGTTTATCTGC   1469
+
+46354111-4636    664 --------------------------------------------------    663
+                                                                       
+198582816-198   1470 TTCAATTTTTTCATTTGTAAAATAAATAGATACTTACCTCACAAAGATGT   1519
+
+46354111-4636    664 ---------------------------------AGC---------TTCAG    671
+                                                      |||         ||.||
+198582816-198   1520 TGTAAGGATTAGTATATGCAAAATATTGAACACAGCACTTCGAATTTAAG   1569
+
+46354111-4636    672 GAGCACTCAATTAATGACCACAGTTGTGATTCTTTAGGCAGATGCATTTT    721
+                     |.|||||.|||..|||..||.||.|||.|||||||.||..|||  .||||
+198582816-198   1570 GGGCACTAAATACATGGTCATAGCTGTAATTCTTTGGGTGGAT--TTTTT   1617
+
+46354111-4636    722 TTTCCAACTTTGATCAGAGGTCTTATTTAGCTTCTCCAGATTTCAAGAAT    771
+                     ||||||||.|||||||||||||||||||.|.|.||.|||||.||||||||
+198582816-198   1618 TTTCCAACCTTGATCAGAGGTCTTATTTGGTTGCTGCAGATATCAAGAAT   1667
+
+46354111-4636    772 CTGGCTCAGTGATATGAAATACAAGACTTGTGAAAAGTGTCAATTGCAAG    821
+                     |||||||||||||.||||||.|||||.|||||||..||||||.|..||..
+198582816-198   1668 CTGGCTCAGTGATGTGAAATGCAAGATTTGTGAAGTGTGTCAGTCACACA   1717
+
+46354111-4636    822 AGAAATGGAAGGATAAAGTATACAGGTGGGTGGAAAAG-AAATTCACAGT    870
+                     ||||||..||||..|..|..||.||.|||.|  ||||| |||||||||||
+198582816-198   1718 AGAAATTAAAGGGCAGGGCGTAGAGATGGAT--AAAAGCAAATTCACAGT   1765
+
+46354111-4636    871 CACTGCCAGAAAAAAAATTCTTGAGAATCAAGTCCTGATGATGTTAG---    917
+                     ||||.||| |||||..|||||||||||.|||.||||.|..|||||||   
+198582816-198   1766 CACTACCA-AAAAATTATTCTTGAGAAACAAATCCTAACAATGTTAGTCT   1814
+
+46354111-4636    918 --GGCTTATAGTTCTTATTATAAAGAGTTTTATGTACTCATTCAGTGAAC    965
+                       ||.|||   ||.||||||||||..|||||.|||..||||||||..|||
+198582816-198   1815 CAGGATTA---TTGTTATTATAAAATGTTTTGTGTCTTCATTCAGCAAAC   1861
+
+46354111-4636    966 ATTTATTGGTGCCTCCTTTAGCCAGGTACTAT----CATAAGAGCTGAAA   1011
+                     |||.||||||||| ||||||||..|||.||||    .||||||.|||.|.
+198582816-198   1862 ATTCATTGGTGCC-CCTTTAGCTGGGTGCTATTATAAATAAGAACTGGAG   1910
+
+46354111-4636   1012 ATAGAAGCATAATCCAGTCCTTGATCTTGAGGAACATGCTGTGTGTAGCA   1061
+                     .|||||.|||..|..|||||||||.|||.|||              ||||
+198582816-198   1911 CTAGAAACATGCTTTAGTCCTTGACCTTAAGG--------------AGCA   1946
+
+46354111-4636   1062 GATAACATAATAAGTGCTTATCTAGATGCATGCAGTGTTA-TGTGATAAG   1110
+                     ..|||.|||||  |||      |||         |.|..| ||||.||||
+198582816-198   1947 CGTAAGATAAT--GTG------TAG---------GAGAGACTGTGGTAAG   1979
+
+46354111-4636   1111 AGTAATATGACAGAGGATACAGATTAGGCTTCACAGAGAAGGGGGATTTG   1160
+                     .|.||                       .|.|||||||          ||
+198582816-198   1980 TGCAA-----------------------GTGCACAGAG----------TG   1996
+
+46354111-4636   1161 AGCAG-GAGGTATTGAAGGGTGAATAGAAGCTCACCAATCATTTTGGGCA   1209
+                         | |||||        |||.|.|||                    ||
+198582816-198   1997 ----GTGAGGT--------GTGTACAGA--------------------CA   2014
+
+46354111-4636   1210 GAGGGGCAAGGACCTGCAAAACCACTGAAGCATGAAGGAAATGGTGAGTT   1259
+                     |                      |||||.|           ||.|.||| 
+198582816-198   2015 G----------------------ACTGACG-----------TGATAAGT-   2030
+
+46354111-4636   1260 TAGGGAAAATGAAGAGAAGATGGCTGTGACTGAAGCACAGGATTTGGGAT   1309
+                                  ||||       |.|||      ||.||||        
+198582816-198   2031 -------------GAGA-------TTTGA------CAGAGGA--------   2046
+
+46354111-4636   1310 TGGAGAAGGGACTG-GAGGTGAGGCTGAAAAGAGGCAAACTCAGAAAAGA   1358
+                       ||.||||  ||| ||.|||||.|....||| ||||             
+198582816-198   2047 --GACAAGG--CTGAGAAGTGAGCCCAGGAAG-GGCA-------------   2078
+
+46354111-4636   1359 TGTTGTGCTGGGCAGTCTGGACATTATCTTTGAAG-CCCACCACATATAA   1407
+                          ||..|.|||||||||.|||.|.|||.||.| |||||||.|.|.||
+198582816-198   2079 -----TGACGAGCAGTCTGGCCATCACCTTGGAGGTCCCACCATACACAA   2123
+
+46354111-4636   1408 GTCATAGGGCTACTGGAGGTTTTAAGCTAAG-AGTG-ACTATTCAATTTC   1455
+                     .|||.| ||.||.|.|||||||||||||.|| |||| |..||.||.||||
+198582816-198   2124 ATCACA-GGTTAATAGAGGTTTTAAGCTGAGAAGTGCATGATCCAGTTTC   2172
+
+46354111-4636   1456 AACTTAAGAGAAGATAGGTTGAGAGGGAACATGGCTTGAGATGAGCCA--   1503
+                     ||.||.||||||||    .|||.|||||.|||||||.|.||     ||  
+198582816-198   2173 AATTTCAGAGAAGA----CTGAAAGGGAGCATGGCTGGGGA-----CAGG   2213
+
+46354111-4636   1504 -TGAGC---------AAAGGAAAGACTACAACAAAGCCAGGAGTGAGGAG   1543
+                      .||||         |||||.||.||.|||||.||||.||.||||||.||
+198582816-198   2214 GAGAGCAGAAAAAAAAAAGGGAACACCACAACGAAGCAAGAAGTGAGAAG   2263
+
+46354111-4636   1544 TGTGTGAAGCAAGAAAGTGACAGT----------TGAAAGCAGTGC--AG   1581
+                     .||.|||.||.|||||||..||||          .||||| || ||  ||
+198582816-198   2264 AGTATGAGGCCAGAAAGTCGCAGTGAGGGGGCAAAGAAAG-AG-GCATAG   2311
+
+46354111-4636   1582 AGGGGATGAATCTGAGAGGCATCTATGAGGTGGAACTCAAATGACATGAT   1631
+                     ||||||.||.|.|.|||||||..|.|.|||..|||.|.|.|.|||||.||
+198582816-198   2312 AGGGGAAGAGTTTAAGAGGCACTTCTCAGGCAGAATTTACAGGACATAAT   2361
+
+46354111-4636   1632 AATAATACAGGGCATTTCTCTGTGTCAGATGCTGTCCTAAGTCCTTACTC   1681
+                     ||||||||||.|.|||||||.|||.|.|.||||||.||||||.||     
+198582816-198   2362 AATAATACAGAGTATTTCTCGGTGCCTGGTGCTGTGCTAAGTACT-----   2406
+
+46354111-4636   1682 CATTGATCT------TCACAGCAACTCAGCATAGTTAATATTTTATGCAT   1725
+                          ||||      |||||||||||||.|..|...|.|||||||..|.|
+198582816-198   2407 -----ATCTTCGCAGTCACAGCAACTCAACCAAACCAGTATTTTACACCT   2451
+
+46354111-4636   1726 AAAGAAATCGG-CACTTGAAGGAGTAATTGGCCCCAGATTACACTGCCTA   1774
+                     ||||||| ||| .|||..|||    |||..||||||.|||.|||.||.||
+198582816-198   2452 AAAGAAA-CGGAGACTCAAAG----AATCAGCCCCAAATTCCACAGCTTA   2496
+
+46354111-4636   1775 TA----------AGGATTCAAATCCAGGTTTGT-TTGGCTCCAAAAACTG   1813
+                     .|          ||||||..|||||||||.||| ||              
+198582816-198   2497 GAAGTTGGAGGGAGGATTTGAATCCAGGTCTGTGTT--------------   2532
+
+46354111-4636   1814 GCTCCTAATTTTCAGAAGGAGAAGCAACCCAGGGCAATGCCCAATTTTGC   1863
+                             |||.||.||||||                             
+198582816-198   2533 --------TTTCCATAAGGAG-----------------------------   2545
+
+46354111-4636   1864 TTCTTAGGCAATGGAGGAATCCACAATCGGAAGGAGTTTTCAGCAGTGCC   1913
+                                |||                            ||||    
+198582816-198   2546 -----------TGG----------------------------GCAG----   2552
+
+46354111-4636   1914 CCATTTGGGGTGGGTTGAATTTGAGGTCCCTGCATGATACCCACTTTGCT   1963
+                                             |||||                     
+198582816-198   2553 ------------------------GGTCC---------------------   2557
+
+46354111-4636   1964 CACTTCAGTGCCTAAAACTGAGTATGGTTCATAGTAGGTGTTCAATAAGT   2013
+                                                                 |||||.
+198582816-198   2558 --------------------------------------------ATAAGG   2563
+
+46354111-4636   2014 GTTGATGCAGTGAATACATGCATGGGGAGATATGCATCAGGCAATGGGAA   2063
+                     |.||                                   |||        
+198582816-198   2564 GGTG-----------------------------------GGC--------   2570
+
+46354111-4636   2064 ATTCAACTCTAAGGCTTAGGGGAAAGCTGGAGCTTGAAGACAGAGCTTTA   2113
+                                      |||||||     ||    ||.|.|||||   .|
+198582816-198   2571 -----------------AGGGGAA-----GA----GACGCCAGAG---AA   2591
+
+46354111-4636   2114 GAAAACAGTAGCAT----AGAAGGGAGTAGGAACCATGAGTTTAGACAAT   2159
+                     ||||||       |    |||||.||               |.|||||  
+198582816-198   2592 GAAAAC-------TCTTAAGAAGTGA---------------TCAGACA--   2617
+
+46354111-4636   2160 ACAATTCAGGAAGAACTTTGTAGCAAGGATAAAGAGGCAAAAAATTAAAG   2209
+                                                                       
+198582816-198   2618 --------------------------------------------------   2617
+
+46354111-4636   2210 AGGTGAGAGCTAAGTGTGGTGCCTGGGGAATCTTAAGGTGTGGGCACGGG   2259
+                                                               ||||||  
+198582816-198   2618 ------------------------------------------GGCACG--   2623
+
+46354111-4636   2260 GAGGAGATGCCAGCAAAGAACATGAATAAAAAGCGGTAGCACAGCCCCTC   2309
+                                                                  .||||
+198582816-198   2624 ---------------------------------------------ACCTC   2628
+
+46354111-4636   2310 CCATCTGGAAGCCAAAAAGAATTGTAA-ATGGAGGAAGTTAGCAGAAGGA   2358
+                     ||    ||||||| ||||||.|| ||| |..||.||||.|.||||||||.
+198582816-198   2629 CC----GGAAGCC-AAAAGAGTT-TAAGACTGAAGAAGGTGGCAGAAGGG   2672
+
+46354111-4636   2359 TCAAATACTTGAAGAGGGTGGAATTGGAATAAAACCAGGGCATTTGAAAA   2408
+                     .|||||.||||..||||.||.||.|||||...|.|||||||||||| |||
+198582816-198   2673 ACAAATGCTTGGTGAGGATGAAAATGGAAGGGAGCCAGGGCATTTG-AAA   2721
+
+46354111-4636   2409 ATTGGGTTGTC----ACTGCAATCTTAACAAGAGAAGTTTTGGCAGGATG   2454
+                     ||||||.||||    .||||   |||.|||||||||||||.|.|..||||
+198582816-198   2722 ATTGGGCTGTCTTTGGCTGC---CTTGACAAGAGAAGTTTGGACCAGATG   2768
+
+46354111-4636   2455 ATGGAGGCA----GAAAGCTG-AGA--GAA--------TCATCAGTTAGA   2489
+                     .||||||||    ||.||.|| |||  |||        | |.||||||||
+198582816-198   2769 CTGGAGGCAGGTTGATAGATGCAGAAGGAAAAGAGGGGT-ACCAGTTAGA   2817
+
+46354111-4636   2490 ACGTTTTTGACTTCAGAG-AACAGAAAATGCAGTTCATAATGGCTTTAAA   2538
+                     ||..|||...||.|| || ||||||||||..|..|||.||||||||||||
+198582816-198   2818 ACACTTTCAGCTGCA-AGTAACAGAAAATTTAACTCACAATGGCTTTAAA   2866
+
+46354111-4636   2539 ACAGGGGCTTGTTTTTCTCCCAGCAATTTGAGAGGCCAAGGCGGGTGCAT   2588
+                     .|| ||||||.|.||||||                               
+198582816-198   2867 CCA-GGGCTTATGTTTCTC-------------------------------   2884
+
+46354111-4636   2589 CAGGAGGTCAAGAGACCGAGACCATCCTGGCCAACATGGTGAATCCCCAT   2638
+                                                                       
+198582816-198   2885 --------------------------------------------------   2884
+
+46354111-4636   2639 CTCTACTAAAAATACAAAAATTAGCGGGGCATGGTGGTGCACGCCTATAG   2688
+                              |||||                                    
+198582816-198   2885 ---------AAATA------------------------------------   2889
+
+46354111-4636   2689 TCCCATCTACTCAGGAGGCTGAGGCAGGAGAATCACTTGAACCCAGGAGG   2738
+                                                                       
+198582816-198   2890 --------------------------------------------------   2889
+
+46354111-4636   2739 TGGAGGTTGCAGTGAGCTGAGATCATGGCCACTGCACTATAGCCTGGAGA   2788
+                                                                       
+198582816-198   2890 --------------------------------------------------   2889
+
+46354111-4636   2789 CACAGCGAGACTCCGTCTCCAAAAAAAAAAAAAAAAGAAGGCAGAAGGTG   2838
+                      ||||                               ||||||||||    
+198582816-198   2890 -ACAG-------------------------------GAAGGCAGAA----   2903
+
+46354111-4636   2839 AATAGTTCAAGGGTGGGTTTAGGACTCAGTGATAATAGGATTCTGCCTGG   2888
+                                |||.|||||.|||||..|..||.||||||.||.||.|||
+198582816-198   2904 -----------GGTCGGTTTGGGACTGGGCAATGATAGGACTCGGCTTGG   2942
+
+46354111-4636   2889 CTTCTCATGGTTCTCTAGGTCTTCCATTCATGGCACCATGC-------CC   2931
+                     |||       .||||.||.|||  ||||||.||..|||.||       ||
+198582816-198   2943 CTT-------GTCTCCAGTTCT--CATTCAAGGTCCCAAGCCCTAAGTCC   2983
+
+46354111-4636   2932 TCACTAGGCATGCTGCCAGAGCAGGAGGGGCAGGTGGAGGG--TTCTCTT   2979
+                     ||||.|...|.|.|.|.|.|||||.||..||||||  ||||  |||||||
+198582816-198   2984 TCACAAATTAAGATCCGAAAGCAGAAGATGCAGGT--AGGGTTTTCTCTT   3031
+
+46354111-4636   2980 GTGTCTGTCT-----TATCAGGGAAGAAGAGCTTTCTC--AGAAGCCCCC   3022
+                     |.||.|||||     |||||              ||||  |||.||    
+198582816-198   3032 GCGTGTGTCTCTCTCTATCA--------------TCTCGGAGAGGC----   3063
+
+46354111-4636   3023 AGCAGACTCCCTTTTCATATTATGGTCCAGCAATGAGTCACAGACCTATG   3072
+                      |||                      .|||.||||.||||||...||.||
+198582816-198   3064 -GCA----------------------TCAGGAATGGGTCACATGTCTGTG   3090
+
+46354111-4636   3073 CACCACCTGCAAAGGAGCCAGAGAAAACAAACGCCCAGCGCTTTTAGCCT   3122
+                     ..|||||.||||||.||..||.|.||.|||..|||||||..|||||.|.|
+198582816-198   3091 TGCCACCAGCAAAGAAGGTAGGGGAAGCAAGTGCCCAGCATTTTTAACAT   3140
+
+46354111-4636   3123 GAAAATGAGAATCTGGTTTGCTGGGGAAGATAAAGGGTGTCGGAAAATGG   3172
+                     .|..| |||||||.||.||||| |.|.|||                   |
+198582816-198   3141 TATGA-GAGAATCAGGCTTGCT-GAGCAGA-------------------G   3169
+
+46354111-4636   3173 CTGTTGGGTAAATCATTGATGTCTGCCACTAGGAATGAAAGGCAAATCAG   3222
+                     |...||.|||.|..||||.|||||||.|||||.|||.|||||.||.|.|.
+198582816-198   3170 CCACTGAGTAGAAAATTGGTGTCTGCTACTAGTAATAAAAGGGAAGTGAT   3219
+
+46354111-4636   3223 GAACTGGCACACATGCTTTCAGGGAGATGGCT------GCAAGGGAGAGG   3266
+                     |||||.|||||||||||||||.||||||||||      |.|  |||.||.
+198582816-198   3220 GAACTAGCACACATGCTTTCAAGGAGATGGCTTTGTTCGGA--GGAAAGA   3267
+
+46354111-4636   3267 GCAAAGACTGGGAAGTTGCTTATGTGGTGCCAGACTATTTGGAAGATCAT   3316
+                     .||||||||||||..|||||||..|||.||.||..|||||...||||||.
+198582816-198   3268 TCAAAGACTGGGAGATTGCTTAATTGGAGCAAGGATATTTTTGAGATCAG   3317
+
+46354111-4636   3317 GGATTGCGGTGTTTGTGTTGTGTGGTCATCATTTTGTTCTTTGTTTACAG   3366
+                     |||||||.|...||.||...||||||||||||||..|||||..|||||||
+198582816-198   3318 GGATTGCAGCACTTATGCAATGTGGTCATCATTTCTTTCTTCATTTACAG   3367
+
+46354111-4636   3367 AACAGA-GAAAGTGGATTGAACAAGGACGCATTTCCCCAGTACATCCACA   3415
+                     .||||| ||||.|||.|  .|||||||..||||||||.|.|.|||..|||
+198582816-198   3368 GACAGAGGAAAATGGGT--GACAAGGAAACATTTCCCAACTTCATGTACA   3415
+
+46354111-4636   3416 ACATGCTGTCCACATCTCGTTCTCGGTTTATCAGAAATACCAACGAGAGC   3465
+                     |..||||||||||||||||||.|   ||.|..||.||||.|||.||||.|
+198582816-198   3416 ATGTGCTGTCCACATCTCGTTTT---TTCACAAGGAATATCAAGGAGAAC   3462
+
+46354111-4636   3466 GGTGAAGAAGTCACCACCTTTTTTGATTATGATTACGGTGCTCCCTGTCA   3515
+                     ..||||||.|.|||||||..||.|||.||||||||.||.||.|||||..|
+198582816-198   3463 CATGAAGAGGCCACCACCAGTTATGACTATGATTATGGCGCACCCTGCTA   3512
+
+46354111-4636   3516 TAAATTTGACGTGAAGCAAATTGGGGCCCAACTCCTGCCTCCGCTCTACT   3565
+                     ||||..|||.|||||.|||||||..|||||.||||||||.||.|||||||
+198582816-198   3513 TAAAACTGATGTGAAACAAATTGCCGCCCAGCTCCTGCCACCTCTCTACT   3562
+
+46354111-4636   3566 CGCTGGTGTTCATCTTTGGTTTTGTGGGCAACATGCTGGTCGTCCTCATC   3615
+                     |||||||||||||||||||..|||||||||||.|||||||.|||||.|||
+198582816-198   3563 CGCTGGTGTTCATCTTTGGGCTTGTGGGCAACTTGCTGGTTGTCCTTATC   3612
+
+46354111-4636   3616 TTAATAAACTGCAAAAAGCTGAAGTGCTTGACTGACATTTACCTGCTCAA   3665
+                     .|.|||||||||||||||||||||.||.||||||||||.||||||||.||
+198582816-198   3613 CTGATAAACTGCAAAAAGCTGAAGAGCATGACTGACATCTACCTGCTGAA   3662
+
+46354111-4636   3666 CCTGGCCATCTCTGATCTGCTTTTTCTTATTACTCTCCCATTGTGGGCTC   3715
+                     ..|||||||||||||.||||||||||||.||||||||||||.||||||.|
+198582816-198   3663 TTTGGCCATCTCTGACCTGCTTTTTCTTTTTACTCTCCCATGGTGGGCCC   3712
+
+46354111-4636   3716 ACTCTGCTGCAAATGAGTGGGTCTTTGGGAATGCAATGTGCAAATTATTC   3765
+                     ||..|||||||||||||||||||||.||||||||||||||.|||||||||
+198582816-198   3713 ACCATGCTGCAAATGAGTGGGTCTTGGGGAATGCAATGTGTAAATTATTC   3762
+
+46354111-4636   3766 ACAGGGCTGTATCACATCGGTTATTTTGGCGGAATCTTCTTCATCATCCT   3815
+                     |||||.|||||||||||.|||||||||||.||||||||.|||||||||||
+198582816-198   3763 ACAGGACTGTATCACATTGGTTATTTTGGAGGAATCTTTTTCATCATCCT   3812
+
+46354111-4636   3816 CCTGACAATCGATAGATACCTGGCTATTGTCCATGCTGTGTTTGCTTTAA   3865
+                     |||||||||.|||||.|||||||||||.|||||||||||||||||.||||
+198582816-198   3813 CCTGACAATGGATAGGTACCTGGCTATCGTCCATGCTGTGTTTGCCTTAA   3862
+
+46354111-4636   3866 AAGCCAGGACGGTCACCTTTGGGGTGGTGACAAGTGTGATCACCTGGTTG   3915
+                     |||||||||||||||||||.||||||||||||||||||.||||||||.|.
+198582816-198   3863 AAGCCAGGACGGTCACCTTCGGGGTGGTGACAAGTGTGCTCACCTGGGTA   3912
+
+46354111-4636   3916 GTGGCTGTGTTTGCTTCTGTCCCAGGAATCATCTTTACTAAATGCCAGAA   3965
+                     |||||||||.||||.|||.|||||||.|||.||||.||.|.||.||||||
+198582816-198   3913 GTGGCTGTGCTTGCCTCTCTCCCAGGGATCGTCTTCACCAGATCCCAGAA   3962
+
+46354111-4636   3966 AGAAGATTCTGTTTATGTCTGTGGCCCTTATTTTCCACGAGGATGGAATA   4015
+                     .||||..||.|.|||...|||.||||||||||||||||.|..||||||.|
+198582816-198   3963 GGAAGTCTCCGATTACACCTGCGGCCCTTATTTTCCACCAAAATGGAAGA   4012
+
+46354111-4636   4016 ATTTCCACACAATAATGAGGAACATTTTGGGGCTGGTCCTGCCGCTGCTC   4065
+                     .||||||.|||||||||||||||||.|||||.|||||||||||.||||||
+198582816-198   4013 GTTTCCAGACAATAATGAGGAACATCTTGGGTCTGGTCCTGCCCCTGCTC   4062
+
+46354111-4636   4066 ATCATGGTCATCTGCTACTCGGGAATCCTGAAAACCCTGCTTCGGTGTCG   4115
+                     .||||||||||||||||||||||||||||||||||.|||||.|||||.||
+198582816-198   4063 GTCATGGTCATCTGCTACTCGGGAATCCTGAAAACGCTGCTCCGGTGCCG   4112
+
+46354111-4636   4116 AAACGAGAAGAAGAGGCATAGGGCAGTGAGAGTCATCTTCACCATCATGA   4165
+                     ||||||||||||||.|||.|.|||.|||||..||||.||..|||||||||
+198582816-198   4113 AAACGAGAAGAAGAAGCACAAGGCCGTGAGGCTCATTTTTGCCATCATGA   4162
+
+46354111-4636   4166 TTGTTTACTTTCTCTTCTGGACTCCCTATAATATTGTCATTCTCCTGAAC   4215
+                     |.|||||||||||.||||||.|||||||.||.||..||.|||||||||.|
+198582816-198   4163 TCGTTTACTTTCTTTTCTGGGCTCCCTACAACATCATCCTTCTCCTGAGC   4212
+
+46354111-4636   4216 ACCTTCCAGGAATTCTTCGGCCTGAGTAACTGTGAAAGCACCAGTCAACT   4265
+                     |||||||||||.|||||...|.|||||||||||||.||..||||.|||||
+198582816-198   4213 ACCTTCCAGGAGTTCTTTAACTTGAGTAACTGTGAGAGTGCCAGCCAACT   4262
+
+46354111-4636   4266 GGACCAAGCCACGCAGGTGACAGAGACTCTTGGGATGACTCACTGCTGCA   4315
+                     |||||||||||.||||||.||||||||.||.||||||||.||||||||||
+198582816-198   4263 GGACCAAGCCATGCAGGTCACAGAGACACTGGGGATGACGCACTGCTGCA   4312
+
+46354111-4636   4316 TCAATCCCA-TCATCTATGCCTTCGTTGGGGAGAAGTTCAGAAGGTATCT   4364
+                     |||| |||| |||||||||||||.||.||.|||||||||||.||||||||
+198582816-198   4313 TCAA-CCCAGTCATCTATGCCTTTGTGGGTGAGAAGTTCAGGAGGTATCT   4361
+
+46354111-4636   4365 CTCGGTGTTCTTCCGAAAGCACATCACCAAGCGCTTCTGCAAACAATGTC   4414
+                     |||.|||||||||||||||||||||.||||.|||.||||||||||.||||
+198582816-198   4362 CTCTGTGTTCTTCCGAAAGCACATCGCCAAACGCCTCTGCAAACACTGTC   4411
+
+46354111-4636   4415 CAGTTTTCTACAGGGAGACAGTGGATGGAGTGACTTCAACAAACACGCCT   4464
+                     |.||||||||.||||||||.|..|||.|||..|.|||||||.||||.||.
+198582816-198   4412 CGGTTTTCTATAGGGAGACGGCTGATCGAGCAAGTTCAACATACACCCCA   4461
+
+46354111-4636   4465 TCCACTGGGGAGCAGGAAGTCTCGGCTGGTTTATAAAACGAGGAGCAGTT   4514
+                     ||||||||||||||||||||||||||||||||||||||...|.||.|.||
+198582816-198   4462 TCCACTGGGGAGCAGGAAGTCTCGGCTGGTTTATAAAATATGTAGTAATT   4511
+
+46354111-4636   4515 TGATTGTTGTTTATAAAGG--GAGATAACAA-----TCTG----------   4547
+                     | .|||.|||||.||||||  |||| ||.||     ||||          
+198582816-198   4512 T-CTTGCTGTTTTTAAAGGAAGAGA-AATAAACTACTCTGGGGGAAGACG   4559
+
+46354111-4636   4548 -----TATATAACAACAAACTTCAAGGGTTTGTTGAACAATAGAAACCTG   4592
+                          |||||||.|||||.|||.||||||||||||||.||||.|...|||
+198582816-198   4560 ATTTATATATAATAACAATCTTTAAGGGTTTGTTGAAGAATAAAGGACTG   4609
+
+46354111-4636   4593 TAAAGCAGGTGCCCAGGAACCTCAGGGCTGTGTGTACTAATACAGACTAT   4642
+                     |||||||||||||||||.|||||.|..||||||||.|.||..|||||.||
+198582816-198   4610 TAAAGCAGGTGCCCAGGGACCTCTGCACTGTGTGTCCCAAGGCAGACCAT   4659
+
+46354111-4636   4643 GTCACCCAATGCATATCCAACATGTGCTCAGGGAATAATCCAGAAAAACT   4692
+                     |||||.|..||.||||....||||||.||||||.||..||||.|||||||
+198582816-198   4660 GTCACTCCTTGTATATAGCTCATGTGTTCAGGGGATGTTCCATAAAAACT   4709
+
+46354111-4636   4693 GTGGGTAGAGACTTTGACTCTCCAGAAAGCTCATCTCAGCTCCTGAAAAA   4742
+                     ||||.|||||.|  |.||||||||..|||||.|||||||.|||||.|||.
+198582816-198   4710 GTGGCTAGAGGC--TAACTCTCCAACAAGCTTATCTCAGTTCCTGGAAAG   4757
+
+46354111-4636   4743 TGC----------------------------CTCATTACCTTGTGCTAAT   4764
+                     |||                            |||.|..|.||||.|..||
+198582816-198   4758 TGCATGTGCTCTTTGTGCCCAAGTGCATATGCTCCTCTCTTTGTACATAT   4807
+
+46354111-4636   4765 CCTCTTTTTCTAGTCTTCATAATTTCTTCACTCAATCTCTGATTCTGTCA   4814
+                     .|||||||||.|||||.||..||.|||||..|  |.|||||.||||||| 
+198582816-198   4808 GCTCTTTTTCCAGTCTCCACCATGTCTTCCTT--AGCTCTGTTTCTGTC-   4854
+
+46354111-4636   4815 ATGTCTTGAAATCAAGGG-CCAGCTGGAGGTGAAGAAGAGAATGTGACAG   4863
+                        ||.||.|||...||| ||||||||||.|.|.|..|||.|||.|||..
+198582816-198   4855 ---TCATGTAATTGGGGGCCCAGCTGGAGATCAGGGGGAGGATGAGACGC   4901
+
+46354111-4636   4864 GCACA-GATGAATGGGAGTGAGGGATAGTGGGGTCAGGGC----TGAGAG   4908
+                     .|||| |.|.||.||||.||||||...|.|||||||||||    ||||||
+198582816-198   4902 TCACAGGGTAAAAGGGAATGAGGGTGGGGGGGGTCAGGGCCCAGTGAGAG   4951
+
+46354111-4636   4909 GAGAAGGAGGGAGACATGAGCATGGCTGAGCCTGGACAAAGACAAAGGTG   4958
+                     |   ||||||||||...|||...||||.||||.|||..|..|..||||| 
+198582816-198   4952 G---AGGAGGGAGATGGGAGACCGGCTTAGCCAGGATCAGTATGAAGGT-   4997
+
+46354111-4636   4959 AGCAAAGGGCTCACGCATTCAGCCAGGAGATGATACTGGTCCTTAGCCC-   5007
+                        ||||||.||||.|| ||| ||||||.||..|.||||.||||||||| 
+198582816-198   4998 ---AAAGGGTTCACTCA-TCA-CCAGGAAATCGTGCTGGCCCTTAGCCCT   5042
+
+46354111-4636   5008 CATCTGCCACGTGTATTTAACCTTGAAGGGTTCACCAGGTCAGGGAGAGT   5057
+                     ..|||.||....|.|||||||.||||||..||..|||..|||.||||||.
+198582816-198   5043 TTTCTACCCTCAGAATTTAACTTTGAAGTCTTTGCCACATCATGGAGAGC   5092
+
+46354111-4636   5058 TTGGGAACTGCAATAAC---CTGGGAGTTTTGGTGGAGTCCGATGATTCT   5104
+                     ||||||||||..|||||   |||||||.||||||.||||||..|||||||
+198582816-198   5093 TTGGGAACTGTCATAACTTTCTGGGAGCTTTGGTTGAGTCCCGTGATTCT   5142
+
+46354111-4636   5105 CTTTTGCATAAGTGCATGACATATTTTTG-CTTTATTACAGTTTATCTAT   5153
+                     |||.||..|||.|||||||.||||||||| ||||||||...|||||.|||
+198582816-198   5143 CTTCTGTGTAATTGCATGATATATTTTTGCCTTTATTATGATTTATATAT   5192
+
+46354111-4636   5154 GGC--ACCCATGCACCTTACATTTGAAATCTATGAAATATCATGCTC-CA   5200
+                     |.|  ||.|||  ||..|||||||||||||.||.|||||||..| || ||
+198582816-198   5193 GACAAACACAT--ACTCTACATTTGAAATCCATTAAATATCCCG-TCTCA   5239
+
+46354111-4636   5201 TTGTTCAGATGCTTCTTAGGCCACATCCCCCTGTCTAAAAATTCAGAAAA   5250
+                     ||.||||.||||||.|||.|.||||||.||||.|.|||||||..|.||||
+198582816-198   5240 TTATTCACATGCTTGTTAAGTCACATCTCCCTATATAAAAATGTATAAAA   5289
+
+46354111-4636   5251 TTTTTGTTT----ATAAAAGATGCATTATCTATGATATGCT--AATATAT   5294
+                     |     |||    ||||||.||.|||...|.|||||...||  ||.|   
+198582816-198   5290 T-----TTTAAAAATAAAATATTCATAGCCAATGATCAACTGGAAAA---   5331
+
+46354111-4636   5295 GTATATGCAATATATATAGGCTCTTGCTTGATCTCTCCA-----------   5333
+                             ||.|.|.|.|.||.|||||||..||..||||           
+198582816-198   5332 --------AAAAAAAAAAAGCCCTTGCTTAGTCATTCCAGGGAAAGAGGA   5373
+
+46354111-4636   5334 -----GGAGGTAGTGATTATGAGAAGGGGGTGGAGAATGATGAGTTCCTT   5378
+                          ||||||||.|.|||||||||||.||||||||||||.|||    ||
+198582816-198   5374 AGGTTGGAGGTAGAGCTTATGAGAAGGAGGTGGAGAATGACGAG----TT   5419
+
+46354111-4636   5379 CACC-----AGGAGCAAAG------------GACG-----GGGATCGTGT   5406
+                     ||||     ||| |||.||            ||.|     |||   |||.
+198582816-198   5420 CACCTGTCGAGG-GCAGAGAGGCCATTGTGAGAGGCCAGTGGG---GTGA   5465
+
+46354111-4636   5407 GG--AACCACTGCAGAACTATTTCCGAAATCAACTAAGTGGAGAGAGCCA   5454
+                     ||  ||||||.||||.|.|.|||||..|||||.|.|||.||.||||    
+198582816-198   5466 GGGAAACCACAGCAGGAATGTTTCCAGAATCAGCCAAGGGGGGAGA----   5511
+
+46354111-4636   5455 GGA-AGGCTGCATCAGAA-----------CCCAGTAAAGCTTCTTGTCTG   5492
+                       | |||.||||.|||||           ||..|||        |.|||.
+198582816-198   5512 --ATAGGATGCACCAGAATGTTGCGAAGGCCTGGTA--------TTTCTC   5551
+
+46354111-4636   5493 GATCTGAGCTGGT--TTGTTTTGTGCTTGCTTTTCCCTGCCTTGCCACTC   5540
+                     |||| .||.||||  ||||||..||.||||...|.||||||||.|..|||
+198582816-198   5552 GATC-CAGGTGGTGCTTGTTTCATGGTTGCCACTTCCTGCCTTCCGGCTC   5600
+
+46354111-4636   5541 -------CCCTCACTCTTCTCTTTTCCCCACAGCCTTTTTCACATAGCTC   5583
+                            ||||.|        .|||||||.|||.||||..||.|||.|.|
+198582816-198   5601 TCCGTGTCCCTGA--------ATTTCCCCGCAGGCTTTAGCATATAACCC   5642
+
+46354111-4636   5584 TTGGCTGTAGGATTGCCCCACTCCAAAAACCAGTGTGTGGAGGTCCAGGA   5633
+                     |.|||.||||||||||||.|.|||||||||||||..||.||||||||.||
+198582816-198   5643 TGGGCGGTAGGATTGCCCTATTCCAAAAACCAGTTGGTAGAGGTCCAAGA   5692
+
+46354111-4636   5634 GTG-AGACCAGGAAAGAATGTGAAAGTGA--CTACA---CAAGGACTCCT   5677
+                     |.| |.|||||||.||||||| |||| ||  ||.||   ||| ||..|||
+198582816-198   5693 GAGCAAACCAGGAGAGAATGT-AAAG-GAAGCTGCAAGGCAA-GATCCCT   5739
+
+46354111-4636   5678 CGATGGTCGTGGAAAAGGAAAGTCAATTGGCAGAGCCCCTGAAGCCAGTC   5727
+                     .|| |..|.|||.|.||||||   |||   |||       ..||..||||
+198582816-198   5740 TGA-GAGCCTGGGAGAGGAAA---AAT---CAG-------TCAGTAAGTC   5775
+
+46354111-4636   5728 TTCAGGACAAAGAAGGAGCCTAGAGACAGAAATGACAGA--TCTCTGCTT   5775
+                     .| .||.||||||||||||||.||||...||.|||||||  .|.|.||.|
+198582816-198   5776 CT-GGGGCAAAGAAGGAGCCTGGAGATGTAACTGACAGAAGGCCCCGCAT   5824
+
+46354111-4636   5776 TGGA-----------AATCACACGTCTGGCTTCACAGATGTGTGATTCAC   5814
+                     ||||           |||||||..||.|||                    
+198582816-198   5825 TGGAATTGACTTACTAATCACATATCGGGC--------------------   5854
+
+46354111-4636   5815 AGTGTGAATCTTGGTGTCTACGTTACCAGGCAGGAAGG--CTGAGAGGAG   5862
+                      .|||||||||..|||||||.||||.|||||| |||||  || |||.|||
+198582816-198   5855 -CTGTGAATCTCAGTGTCTAAGTTAGCAGGCA-GAAGGGTCT-AGATGAG   5901
+
+46354111-4636   5863 AGAGACTCCAGCTGGGTTGGAAAACAGTA----TTTTCCAAACTACCTTC   5908
+                     ..|||||  ||||.|..|||||||.|..|    ||||||||||||||.||
+198582816-198   5902 GAAGACT--AGCTAGCCTGGAAAAAAACAAAAGTTTTCCAAACTACCCTC   5949
+
+46354111-4636   5909 CAGTTCCTCATTTTTGAATACAGGCATAGAGTTCAGACTTTTTTTAAATA   5958
+                     |||..|||||.|||||.||||||.|||.||                    
+198582816-198   5950 CAGCACCTCACTTTTGGATACAGCCATTGA--------------------   5979
+
+46354111-4636   5959 GTAAAAATAAAATTAAAGCTGAAAACTGCAACTTGTAAATGTGGTAAAGA   6008
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6009 GTTAGTTTGAGTTACTATCATGTCAAACGTGAAAATGCTGTATTAGTCAC   6058
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6059 AGAGATAATTCTAGCTTTGAGCTTAAGAATTTTGAGCAGGTGGTATGTTT   6108
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6109 GGGAGACTGCTGAGTCAACCCAATAGTTGTTGATTGGCAGGAGTTGGAAG   6158
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6159 TGTGTGATCTGTGGGCACATTAGCCTATGTGCATGCAGCATCTAAGTAAT   6208
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6209 GATGTCGTTTGAATCACAGTATACGCTCCATCGCTGTCATCTCAGCTGGA   6258
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6259 TCTCCATTCTCTCAGGCTTGCTGCCAAAAGCCTTTTGTGTTTTGTTTTGT   6308
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6309 ATCATTATGAAGTCATGCGTTTAATCACATTCGAGTGTTTCAGTGCTTCG   6358
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6359 CAGATGTCCTTGATGCTCATATTGTTCCCTATTTTGCCAGTGGGAACTCC   6408
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6409 TAAATCAAGTTGGCTTCTAATCAAAGCTTTTAAACCCTATTGGTAAAGAA   6458
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6459 TGGAAGGTGGAGAAGCTCCCTGAAGTAAGCAAAGACTTTCCTCTTAGTCG   6508
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6509 AGCCAAGTTAAGAATGTTCTTATGTTGCCCAGTGTGTTTCTGATCTGATG   6558
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6559 CAAGCAAGAAACACTGGGCTTCTAGAACCAGGCAACTTGGGAACTAGACT   6608
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6609 CCCAAGCTGGACTATGGCTCTACTTTCAGGCCACATGGCTAAAGAAGGTT   6658
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6659 TCAGAAAGAAGTGGGGACAGAGCAGAACTTTCACCTTCATATATTTGTAT   6708
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6709 GATCCTAATGAATGCATAAAATGTTAAGTTGATGGTGATGAAATGTAAAT   6758
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6759 ACTGTTTTTAACAACTATGATTTGGAAAATAAATCAATGCTATAACTATG   6808
+                                                                       
+198582816-198   5980 --------------------------------------------------   5979
+
+46354111-4636   6809 TTGATAAAAGATTTAAAAACAA   6830
+                                           
+198582816-198   5980 ----------------------   5979
+
+
+#---------------------------------------
+#---------------------------------------
